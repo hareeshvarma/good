@@ -6,11 +6,15 @@ int main()
     printf("enter the letter :");
     scanf("%c",&sub);
     if(sub=='a'||sub=='e'||sub=='i'||sub=='o'||sub=='u'||sub=='A'||sub=='E'||sub=='I'||sub=='O'||sub=='U')
-
-    }
-    else
     {
-        printf("it is invalid input ");
+        printf("vowles");
+     }
+    else if(sub>='a' && sub<='z'){
+           printf("Consonant");
+    }
+    else 
+    {
+        printf("Invalid");
     }
     return 0;
 }
