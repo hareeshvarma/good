@@ -5,7 +5,7 @@ int main()
 char sub;
 printf("enter the letter:");
 scanf("%c",&sub);
-if(sub>='a'||sub>='A' && sub<='z'||sub<='Z')
+if(sub>='a' && sub<='z' || sub>='A' && sub<='Z')
 {
 printf("ALPHABET");
 }
