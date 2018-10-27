@@ -14,12 +14,13 @@ n=n/10;
 }
 n=yug;
 if(sum==n)
-{printf("it is a palindrome number");
+{printf("yes");
 }
 else
 {
-printf("it's not palindrome");
+printf("no");
 }
 return 0;
 
+  
 }
