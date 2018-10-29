@@ -6,13 +6,14 @@ int n,i,result=1;
 printf("enter any  value: ");
 scanf("%d",&n);
 i=1;
+  if(n<=20){
 while(i<=n)
 {
 result=result*i;
 i++;
 }
 printf("%d",result);
-
+  }
 getch();
 return 0;
 }
