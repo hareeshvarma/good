@@ -14,12 +14,11 @@ count++;
 }
 if(count==2)
 {
-printf("it's prime number");
+printf("yes");
 }
 else
 {
-    printf("it's not a prime");
+    printf("no");
 }
-getch();
 return 0;
 }
