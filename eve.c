@@ -2,10 +2,11 @@
 #include<conio.h>
 int main()
 {
-int a,b,i;
+int a,b,i,c;
 printf("enter any two value:");
 scanf("%d%d",&a,&b);
-for(i=a;i<=b;i++)
+  c=b-1;
+for(i=a;i<=c;i++)
 {
 if(i%2==0)
 {
