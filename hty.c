@@ -6,7 +6,7 @@ int n,i,j,a[30],t,k,g;
 printf("enter the limit value: ");
 scanf("%d",&n);
 
-for(k=0;i<n;k++)
+for(k=0;k<n;k++)
 {
     scanf("%d",&a[k]);
 }
@@ -22,7 +22,7 @@ a[j]=t;
 }
 }
 }
-for(g=0;i<n;g++)
+for(g=0;g<n;g++)
 {printf("%d",a[g]);}
 
 return 0;
