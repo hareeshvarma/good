@@ -2,7 +2,7 @@
 #include <conio.h>
 int main()
 {
-int n,i,j,a[30],t,k,g;
+int n,a[30],k,g;
 printf("enter the limit value: ");
 scanf("%d",&n);
 
