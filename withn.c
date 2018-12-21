@@ -10,18 +10,7 @@ for(k=0;k<n;k++)
 {
     scanf("%d",&a[k]);
 }
-for(i=0;i<n;i++)
-{
-for(j=i+1;j<n;j++)
-{
-if(a[j]<a[i])
-{
-t=a[i];
-a[i]=a[j];
-a[j]=t;
-}
-}
-}
+
 for(g=0;g<n;g++)
 {printf("%d %d \n",a[g],g);}
 
