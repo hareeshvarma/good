@@ -13,4 +13,5 @@ if(a[i]==n)
 {printf("yes");
 k=0;
 }
+    
 }}
