@@ -2,7 +2,11 @@
 #include<math.h>
 int main()
 {
+  int ivar;
 float n;
 scanf("%f",&n);
-printf("%f",round(n));
+  ivar=n;
+  
+  
+printf("%d",ivar+1);
 }
