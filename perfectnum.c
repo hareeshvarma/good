@@ -3,21 +3,21 @@
 
 int main()
 {
-    int num;
+    int num,m,sum;
     int iVar;
     float fVar;
 
     printf("Enter an integer number: ");
     scanf("%d",&num);
 
-    fVar=sqrt((double)num);
-
+    fVar=sqrt((double)sum);
+    sum=num*m;
     iVar=fVar;
 
     if(iVar==fVar)
-        printf("%d is a perfect square.",num);
+        printf("yes");
     else
-        printf("%d is not a perfect square.",num);
+        printf("no");
 
     return 0;
 }
