@@ -11,13 +11,13 @@ void main()
     {
         h=0;
         sum=a[i];
-        for(j=i;j<n;j++)
+        for(j=i+1;j<n;j++)
         {
             if(sum<a[j])
             {
                sum=a[j];
                h++;
-            }}
+            }else{j=n;}}
         if(l<h)
         {
             l=h;
