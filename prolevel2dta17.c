@@ -1,7 +1,8 @@
 #include<stdio.h>
 int main()
 {
-int n,m,j,t=0,a[100];
+   long int n;
+int m,j,t=0,a[100];
 scanf("%d %d",&n,&m);
 for(j=0;j<n;j++)
 {
